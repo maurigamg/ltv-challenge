@@ -25,6 +25,7 @@ The tool always produces a result. It can show an error message from the API lik
 *Error: httphandler: only data in range [2021-01-01 - 2021-03-31] is available*
 
 or an information message:
+
 *Loaded songs: 10*
 
 *Failed inserts (integrity): 0*
