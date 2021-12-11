@@ -34,8 +34,7 @@ def to_seconds(str_duration):
     seconds= 0
     for part in str_duration.split(':'):
         seconds = seconds*60 + int(part)
-    return seconds
-
+        
     return seconds
 
 #Transform the song's information before load
@@ -48,7 +47,7 @@ def transform_song(song):
     duration_seconds = to_seconds(song["duration"]) #Duration to seconds
     artist = song["artist"]
     name = song["name"]
-    last_played_at = times_played = global_rank = "NULL"
+    last_played_at = times_played = global_rank = None #NULL in SQLite
 
     if(song.get("stats") != None): #If there are statistics
         last_played_at = song["stats"]["last_played_at"]
