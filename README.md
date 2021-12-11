@@ -1,7 +1,7 @@
 # Configuration and use
 
 ## Dependencies
-request and pandas must be installed before using the tool
+request and pandas must be installed before using the tool.
 
 ### requests
 To install using PyPI:
@@ -15,7 +15,7 @@ Pandas uses NumPy. The command should install it if it is absent, otherwise use:
 > pip install numpy
 
 ## Using the tool
-Use the tool is easy, just use the next command in a command-line interface, for example Command Prompt in windows:
+Use the tool is easy, just use the next command in a command-line interface, for example Command Prompt in Windows:
 > python eltjr.py *day*
 
 Where day must have the format: YYYY-MM-DD. day argument is required, otherwise, the tool notifies the user.
