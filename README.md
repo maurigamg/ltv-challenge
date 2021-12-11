@@ -1,5 +1,5 @@
 # Configuration and use
-
+This file contains the information to sep up and use the ***eltjr.py*** tool in the CLI tool - ELT directory.
 ## Dependencies
 request and pandas must be installed before using the tool.
 
@@ -24,7 +24,7 @@ The tool always produces a result. It can show an error message from the API lik
 
 *Error: httphandler: only data in range [2021-01-01 - 2021-03-31] is available*
 
-or an information message:
+or a load status message:
 
 *Loaded songs: 10*
 
