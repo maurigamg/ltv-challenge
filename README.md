@@ -21,7 +21,10 @@ Use the tool is easy, just use the next command in a command-line interface, for
 Where day must have the format: YYYY-MM-DD. day argument is required, otherwise, the tool notifies the user.
 
 The tool always produces a result. It can show an error message from the API like:
+
 *Error: httphandler: only data in range [2021-01-01 - 2021-03-31] is available*
+
 or an information message:
 *Loaded songs: 10*
+
 *Failed inserts (integrity): 0*
