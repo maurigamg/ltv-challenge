@@ -1,7 +1,8 @@
 # Configuration and use
 This file contains the information to sep up and use the ***eltjr.py*** tool in the CLI tool - ELT directory.
 ## Dependencies
-request and pandas must be installed before using the tool.
+- This tool was implemented using Python3.9.
+- request and pandas must be installed before using the tool.
 
 ### requests
 To install using PyPI:
