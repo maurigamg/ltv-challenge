@@ -1,9 +1,21 @@
-https://docs.python.org/3/library/sys.html
-https://pypi.org/project/requests/
-https://docs.python.org/3/library/sqlite3.html
-https://pandas.pydata.org/docs/reference/api/pandas.Timestamp.html
+The imports used in the tool were the following:
 
-python -m pip install requests
+- sys
+  Used to get the argument of the day.
 
-pip install pandas
-pip install numpy
+- request
+  Simple and elegant HTTP library. Used to retrieve the songs from the API.
+  Installation: python -m pip install requests
+
+- sqlite3
+  Used to create a connection with the database and load the songs.
+
+- pandas
+  pandas.Timestamp was used to convert released_at and last_played_at columns to ISO8601 strings.
+  Installation: pip install pandas
+
+Sources:
+  sys - https://docs.python.org/3/library/sys.html
+  requests - https://pypi.org/project/requests/
+  sqlite3 - https://docs.python.org/3/library/sqlite3.html
+  pandas (Timestamp) - https://pandas.pydata.org/docs/reference/api/pandas.Timestamp.html
