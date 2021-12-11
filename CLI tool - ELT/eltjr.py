@@ -89,7 +89,8 @@ def load_data(data):
     print("Failed inserts (integrity):", integrity_errors)
 
 def main():
-    if len(sys.argv) == 2:
+    num_arguments = len(sys.argv)
+    if num_arguments == 2:
         day = sys.argv[1] #given day as argument
         
         extracted_data = extract_data(day) #get data
@@ -99,8 +100,10 @@ def main():
             load_data(extracted_data)
         elif (type_extr) == dict: #Error Response
             print("Error:", extracted_data["error"])
-    else:
+    elif num_arguments < 2:
         print("A day is required (YYYY-MM-DD)")
+    else:
+        print("You have specified too many arguments")
 
 if __name__ == "__main__":
     main()
